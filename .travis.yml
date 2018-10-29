@@ -4,4 +4,4 @@ dotnet: 2.1
 before_install:
   - dotnet restore
 script:
-  - dotnet build
+  - dotnet build 
