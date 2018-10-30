@@ -7,8 +7,8 @@ namespace SpbDotNet_Nuget_Error
     {
         static void Main(string[] args)
         {
-            var dto = new DataTransferObject {Id = 1, Name = "First", Description = "Description of the first"};
-            Console.WriteLine($"{dto.Id}-{dto.Name}-{dto.Description}");
+            var dto = new DataTransferObject {Id = Guid.NewGuid(), FirstName = "First", LastName = "LastName", Description = "Description of the first"};
+            Console.WriteLine($"{dto.Id}-{dto.FirstName}-{dto.LastName}-{dto.Description}");
         }
     }
 }

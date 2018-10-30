@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <Authors>ddydeveloper</Authors>
         <Version>1.0.0</Version>
-        <Description>Data transfer obects container</Description>
+        <Description>Data transfer objects container</Description>
     </PropertyGroup>
 
 </Project>
