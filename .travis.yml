@@ -2,6 +2,7 @@ language: csharp
 mono: none
 dotnet: 2.1
 before_install:
-  - dotnet restore
+  # restore dependencies from the private feed
+  - dotnet restore -s https://www.myget.org/F/paranamix2/ 
 script:
   - dotnet build 
