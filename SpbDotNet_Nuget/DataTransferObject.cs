@@ -8,7 +8,7 @@ namespace SpbDotNet_Nuget
         
         public string LastName { get; set; }
 
-        public string FirtsName { get; set; }
+        public string FirstName { get; set; }
 
         public string Description { get; set; }
     }

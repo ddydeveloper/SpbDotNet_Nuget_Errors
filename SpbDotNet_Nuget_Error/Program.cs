@@ -10,12 +10,12 @@ namespace SpbDotNet_Nuget_Error
             var dto = new DataTransferObject
             {
                 Id = Guid.NewGuid(),
-                FirtsName = "First",
+                FirstName = "First",
                 LastName = "LastName",
                 Description = "Description of the first"
             };
 
-            Console.WriteLine($"{dto.Id}-{dto.FirtsName}-{dto.LastName}-{dto.Description}");
+            Console.WriteLine($"{dto.Id}-{dto.FirstName}-{dto.LastName}-{dto.Description}");
         }
     }
 }
