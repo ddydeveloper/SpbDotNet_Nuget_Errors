@@ -3,7 +3,8 @@ mono: none
 dotnet: 2.1
 before_install:
   # restore dependencies from the private feed
-  - dotnet restore -s https://www.myget.org/F/paranamix2/ 
+  - dotnet restore ./SpbDotNet_Nuget_Error/SpbDotNet_Nuget_Error.csproj -s https://www.myget.org/F/paranamix2/
+  - dotnet restore ./SpbDotNet_Nuget_Errors_Test/SpbDotNet_Nuget_Errors_Test.csproj 
 script:
   - dotnet build  
   - dotnet test ./SpbDotNet_Nuget_Errors_Test/SpbDotNet_Nuget_Errors_Test.csproj
