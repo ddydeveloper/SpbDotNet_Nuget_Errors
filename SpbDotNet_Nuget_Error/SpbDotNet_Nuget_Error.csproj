@@ -6,6 +6,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="SpbDotNet_Nuget" Version="1.0.0" />
+      <PackageReference Include="SpbDotNet_Nuget_Dto" Version="1.0.0" />
     </ItemGroup>
 </Project>

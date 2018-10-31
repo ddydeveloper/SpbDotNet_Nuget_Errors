@@ -1,5 +1,5 @@
 ﻿using System;
-using SpbDotNet_Nuget;
+using SpbDotNet_Nuget_Dto;
 
 namespace SpbDotNet_Nuget_Error
 {
