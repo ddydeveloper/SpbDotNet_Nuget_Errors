@@ -2,7 +2,7 @@
 
 namespace SpbDotNet_Nuget_Dto
 {
-    public class DataTransferObject
+    public class Dto
     {
         public Guid Id { get; set; }
         

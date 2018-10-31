@@ -3,18 +3,11 @@ using SpbDotNet_Nuget_Dto;
 
 namespace SpbDotNet_Nuget_Error
 {
-    class Program
+    public class Worker
     {
-        static void Main(string[] args)
+        public string DtoToString(DataTransferObject dto)
         {
-            var dto = new DataTransferObject
-            {
-                Id = 1,
-                Name = "First",
-                Description = "Description of the first"
-            };
-
-            Console.WriteLine($"{dto.Id}-{dto.Name}-{dto.Description}");
+            return $"{dto.Id}-{dto.Name}-{dto.Description}";
         }
     }
 }
