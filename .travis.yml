@@ -4,7 +4,7 @@ dotnet: 2.1
 before_install:
   # restore dependencies from the private feed
   - dotnet restore
-  # - dotnet restore -s https://www.myget.org/F/paranamix2/ 
+  - dotnet restore -s https://www.myget.org/F/paranamix2/ 
 script:
   - dotnet build  
   - dotnet test ./SpbDotNet_Nuget_Errors_Test/SpbDotNet_Nuget_Errors_Test.csproj
