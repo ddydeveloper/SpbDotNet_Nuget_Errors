@@ -1,8 +1,10 @@
-﻿namespace SpbDotNet_Nuget_Dto
+﻿using System;
+
+namespace SpbDotNet_Nuget_Dto
 {
     public class DataTransferObject
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         
         public string Name { get; set; }
 
