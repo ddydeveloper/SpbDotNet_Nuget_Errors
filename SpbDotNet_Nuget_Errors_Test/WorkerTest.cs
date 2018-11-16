@@ -1,4 +1,4 @@
-using SpbDotNet_Nuget;
+using SpbDotNet_Nuget_Dto;
 using Xunit;
 using SpbDotNet_Nuget_Error;
 
