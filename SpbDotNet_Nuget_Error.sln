@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpbDotNet_Nuget_Error", "SpbDotNet_Nuget_Error\SpbDotNet_Nuget_Error.csproj", "{72FB8B2E-C90F-44BE-BD44-B2C452FEA9F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpbDotNet_Nuget", "SpbDotNet_Nuget\SpbDotNet_Nuget.csproj", "{4A5CB97D-B1DC-4A19-ACBA-D57667B4AEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpbDotNet_Nuget_Dto", "SpbDotNet_Nuget_Dto\SpbDotNet_Nuget_Dto.csproj", "{4A5CB97D-B1DC-4A19-ACBA-D57667B4AEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpbDotNet_Nuget_Errors_Test", "SpbDotNet_Nuget_Errors_Test\SpbDotNet_Nuget_Errors_Test.csproj", "{5836D996-8662-4363-A3A2-194CC216F4B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4A5CB97D-B1DC-4A19-ACBA-D57667B4AEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A5CB97D-B1DC-4A19-ACBA-D57667B4AEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A5CB97D-B1DC-4A19-ACBA-D57667B4AEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5836D996-8662-4363-A3A2-194CC216F4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5836D996-8662-4363-A3A2-194CC216F4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5836D996-8662-4363-A3A2-194CC216F4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5836D996-8662-4363-A3A2-194CC216F4B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
