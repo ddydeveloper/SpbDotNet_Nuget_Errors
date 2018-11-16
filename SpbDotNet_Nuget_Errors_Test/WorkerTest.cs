@@ -1,4 +1,4 @@
-using SpbDotNet_Nuget_Dto;
+using SpbDotNet_Nuget_Dtos;
 using Xunit;
 using SpbDotNet_Nuget_Error;
 
@@ -11,7 +11,7 @@ namespace SpbDotNet_Nuget_Errors_Test
         [Fact]
         public void DtoToString_Test()
         {
-            var dto = new DataTransferObject
+            var dto = new NugetDto
             {
                 Id = 1,
                 Name = "First",
