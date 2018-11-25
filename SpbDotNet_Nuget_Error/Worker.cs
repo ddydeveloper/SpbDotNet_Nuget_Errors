@@ -6,7 +6,7 @@ namespace SpbDotNet_Nuget_Error
     {
         public string DtoToString(NugetDto dto)
         {
-            return $"{dto.Id}-{dto.Name}-{dto.Description}";
+            return $"{dto.Id.ToString()}-{dto.Name}-{dto.Description}";
         }
     }
 }

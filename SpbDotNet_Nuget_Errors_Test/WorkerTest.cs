@@ -18,7 +18,7 @@ namespace SpbDotNet_Nuget_Errors_Test
                 Description = "Description of the first"
             };
 
-            Assert.Equal(_worker.DtoToString(dto), $"{dto.Id}-{dto.Name}-{dto.Description}");
+            Assert.Equal(_worker.DtoToString(dto), $"{dto.Id.ToString()}-{dto.Name}-{dto.Description}");
         }
     }
 }
