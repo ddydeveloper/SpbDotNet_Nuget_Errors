@@ -1,3 +1,4 @@
+using System;
 using SpbDotNet_Nuget_Dtos;
 using Xunit;
 using SpbDotNet_Nuget_Error;
@@ -13,7 +14,7 @@ namespace SpbDotNet_Nuget_Errors_Test
         {
             var dto = new NugetDto
             {
-                Id = 1,
+                Id = Guid.NewGuid(),
                 Name = "First",
                 Description = "Description of the first"
             };
