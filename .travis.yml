@@ -1,6 +1,6 @@
 language: csharp 
 mono: none
-dotnet: 2.1.300
+dotnet: 2.1
 before_install:
   # restore dependencies from the private feed
   - dotnet restore ./SpbDotNet_Nuget_Error/SpbDotNet_Nuget_Error.csproj -s https://www.myget.org/F/paranamix2/
