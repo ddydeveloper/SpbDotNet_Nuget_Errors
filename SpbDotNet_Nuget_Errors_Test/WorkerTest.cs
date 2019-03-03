@@ -7,20 +7,16 @@ namespace SpbDotNet_Nuget_Errors_Test
 {
     public class WorkerTest
     {
-        private readonly Worker _worker = new Worker();
-
         [Fact]
         public void DtoToString_Test()
         {
-            var dto = new NugetDto
+            var dto = new Person()
             {
-                Id = Guid.NewGuid(),
-                Name = "First",
-                Description = "Description of the first"
+                FullName = "John Doe",
+                BirthDate = new DateTime(1991, 1, 1)
             };
 
-            Assert.Equal(_worker.DtoToString(dto), 
-                $"{dto.Id.ToString()}-{dto.Name}-{dto.Description}");
+            Assert.Equal(Worker.DtoToString(dto), $"{dto.FullName}, {dto.BirthDate}");
         }
     }
 }

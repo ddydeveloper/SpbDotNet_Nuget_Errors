@@ -4,9 +4,9 @@ namespace SpbDotNet_Nuget_Error
 {
     public class Worker
     {
-        public string DtoToString(NugetDto dto)
+        public static string DtoToString(Person dto)
         {
-            return $"{dto.Id.ToString()}-{dto.Name}-{dto.Description}";
+            return $"{dto.FullName}, {dto.BirthDate}";
         }
     }
 }
